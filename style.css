@@ -53,9 +53,8 @@ body {
 .sidebar {
   width: 250px;
   height: 100vh;
-  color: white;
-  font-size: 1em;
   background-color: #05204a;
+  color: whitesmoke;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,15 +62,54 @@ body {
   right: 0;
   top: 0;
   padding-top: 100px;
+  padding-bottom: 20px; /* Space from the bottom */
   border-left: 2px solid black;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+  justify-content: space-between; /* Distributes space, pushing footer down */
 }
 
+.sidebar-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+.sidebar-top-divider {
+    width: 80%;
+    border: 0;
+    border-top: 1px solid whitesmoke;
+    margin: 10px 0; /* Adds spacing above and below */
+  }
+
 .sidebar-divider {
-  width: 80%; /* Adjust width as needed */
+  width: 150%;
   border: 0;
-  border-top: 1px solid whitesmoke; /* Dark grey color for the divider */
+  border-top: 1px solid whitesmoke;
+  margin: 10px 0; /* Adds spacing above and below */
+}
+
+.connect-text {
+  font-size: 1em;
+  color: whitesmoke;
+  margin-bottom: 10px; /* Space between the text and social icons */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: whitesmoke; /* Icon color */
+  font-size: 1.5em; /* Icon size */
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #0072b1; /* Change color on hover, for example LinkedIn blue */
 }
 
 .avatar {
@@ -124,7 +162,7 @@ p {
   font-size: 1.1em;
   line-height: 1.6;
   margin-top: 20px;
-  color: #DAE3E5;
+  color: #dae3e5;
 }
 
 .section-content h2 {
