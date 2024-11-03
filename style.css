@@ -7,12 +7,12 @@
 }
 
 body {
-  background-color: #E4F0D0;
+  background-color: #e4f0d0;
 }
 
 .banner {
   width: calc(100% - 250px); /* Adjusts for sidebar width */
-  background-color: #C2D8B9;
+  background-color: #c2d8b9;
   height: 210px;
   position: fixed;
   top: 0;
@@ -30,7 +30,7 @@ body {
 
 #banner-text {
   font-size: 5em;
-  color: #231F20;
+  color: #231f20;
 }
 
 .main-container {
@@ -53,8 +53,8 @@ body {
 .sidebar {
   width: 250px;
   height: 100vh;
-  background-color: #C2D8B9;
-  color: #231F20;
+  background-color: #c2d8b9;
+  color: #231f20;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +63,7 @@ body {
   top: 0;
   padding-top: 100px;
   padding-bottom: 20px; /* Space from the bottom */
-  border-left: 2px solid black;
+  border-left: 5px solid black;
   border-bottom: 2px solid black;
   justify-content: space-between; /* Distributes space, pushing footer down */
 }
@@ -76,33 +76,33 @@ body {
 }
 
 .sidebar-top-divider {
-    width: 100%;
-    border: 0;
-    border-top: 5px solid #231F20;
-    margin: -14.5px 0; /* Adds spacing above and below */
-  }
+  width: 100%;
+  border: 0;
+  border-top: 5px solid #231f20;
+  margin: -14.5px 0; /* Adds spacing above and below */
+}
 
 .sidebar-divider {
-  width: 150%;
+  width: 125%;
   border: 0;
-  border-top: 3px solid #231F20;
+  border-top: 3px solid #231f20;
   margin: 10px 0; /* Adds spacing above and below */
 }
 
 .connect-text {
-  font-size: 1em;
-  color: #231F20;
+  font-size: 1.2em;
+  color: #231f20;
   margin-bottom: 10px; /* Space between the text and social icons */
 }
 
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 20px;
 }
 
 .social-icons a {
-  color: #231F20; /* Icon color */
+  color: #231f20; /* Icon color */
   font-size: 1.5em; /* Icon size */
   text-decoration: none;
 }
@@ -114,7 +114,7 @@ body {
 .avatar {
   width: 120px;
   height: 120px;
-  border: 3px solid white;
+  border: 3px solid #103900;
   border-radius: 50%;
   object-fit: cover; /* Ensures the image fills the circle without distortion */
   margin-bottom: 10px;
@@ -135,13 +135,15 @@ h1 {
 nav {
   margin-top: 150px;
   display: flex;
+  font-size: 1.2em;
   flex-direction: column;
+  margin-top: auto;
 }
 
 nav a {
   margin: 10px 0;
   text-decoration: none;
-  color: #231F20;
+  color: #231f20;
   font-size: 1.1em;
 }
 
@@ -161,13 +163,13 @@ p {
   font-size: 1.3em;
   line-height: 1.6;
   margin-top: 20px;
-  color: #12263A;
+  color: #103900;
 }
 
 .bold-text {
-    vertical-align: middle;
-    font-weight: bold;
-    color: slateblue;
+  vertical-align: middle;
+  font-weight: bold;
+  color: #0cce6b;
 }
 
 .section-content h2 {
