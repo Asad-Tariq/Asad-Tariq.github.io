@@ -7,20 +7,20 @@
 }
 
 body {
-  background-color: #456990;
+  background-color: #E4F0D0;
 }
 
 .banner {
   width: calc(100% - 250px); /* Adjusts for sidebar width */
-  background-color: #05204a;
+  background-color: #C2D8B9;
   height: 210px;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 10;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
-  border-top: 2px solid black;
+  border-bottom: 5px solid black;
+  /* border-left: 2px solid black;
+  border-top: 2px solid black; */
 
   /* Center banner text */
   display: flex;
@@ -30,7 +30,7 @@ body {
 
 #banner-text {
   font-size: 5em;
-  color: whitesmoke;
+  color: #231F20;
 }
 
 .main-container {
@@ -53,8 +53,8 @@ body {
 .sidebar {
   width: 250px;
   height: 100vh;
-  background-color: #05204a;
-  color: whitesmoke;
+  background-color: #C2D8B9;
+  color: #231F20;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,7 +64,6 @@ body {
   padding-top: 100px;
   padding-bottom: 20px; /* Space from the bottom */
   border-left: 2px solid black;
-  border-top: 2px solid black;
   border-bottom: 2px solid black;
   justify-content: space-between; /* Distributes space, pushing footer down */
 }
@@ -77,22 +76,22 @@ body {
 }
 
 .sidebar-top-divider {
-    width: 80%;
+    width: 100%;
     border: 0;
-    border-top: 1px solid whitesmoke;
-    margin: 10px 0; /* Adds spacing above and below */
+    border-top: 5px solid #231F20;
+    margin: -14.5px 0; /* Adds spacing above and below */
   }
 
 .sidebar-divider {
   width: 150%;
   border: 0;
-  border-top: 1px solid whitesmoke;
+  border-top: 3px solid #231F20;
   margin: 10px 0; /* Adds spacing above and below */
 }
 
 .connect-text {
   font-size: 1em;
-  color: whitesmoke;
+  color: #231F20;
   margin-bottom: 10px; /* Space between the text and social icons */
 }
 
@@ -103,7 +102,7 @@ body {
 }
 
 .social-icons a {
-  color: whitesmoke; /* Icon color */
+  color: #231F20; /* Icon color */
   font-size: 1.5em; /* Icon size */
   text-decoration: none;
 }
@@ -142,7 +141,7 @@ nav {
 nav a {
   margin: 10px 0;
   text-decoration: none;
-  color: white;
+  color: #231F20;
   font-size: 1.1em;
 }
 
@@ -159,10 +158,16 @@ section {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.3em;
   line-height: 1.6;
   margin-top: 20px;
-  color: #dae3e5;
+  color: #12263A;
+}
+
+.bold-text {
+    vertical-align: middle;
+    font-weight: bold;
+    color: slateblue;
 }
 
 .section-content h2 {
