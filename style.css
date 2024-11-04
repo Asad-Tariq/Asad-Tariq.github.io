@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #EDFFEC;
+}
+
+.banner {
+  width: calc(100% - 250px); /* Adjusts for sidebar width */
+  background-color: #c2d8b9;
+  height: 210px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  border-bottom: 3px solid black;
+  /* border-left: 2px solid black;
+  border-top: 2px solid black; */
+
+  /* Center banner text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#banner-text {
+  font-size: 5em;
+  color: #231f20;
+  font-family: 'Vollkorn', serif;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 250px; /* Space below the banner */
+  max-width: 100vw;
+}
+
+.content {
+  flex: 1;
+  max-width: calc(100% - 250px); /* Occupies remaining space, minus sidebar */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #c2d8b9;
+  font-family: 'Vollkorn', serif;
+  color: #231f20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding-top: 100px;
+  padding-bottom: 20px; /* Space from the bottom */
+  border-left: 3px solid black;
+  justify-content: space-between; /* Distributes space, pushing footer down */
+}
+
+.sidebar-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+.sidebar-top-divider {
+  width: 100%;
+  border: 0;
+  border-top: 5px solid #231f20;
+  margin: -14.5px 0; /* Adds spacing above and below */
+}
+
+.sidebar-divider {
+  width: 125%;
+  border: 0;
+  border-top: 3px solid #231f20;
+  margin: 10px 0; /* Adds spacing above and below */
+}
+
+.connect-text {
+  font-size: 1.2em;
+  font-family: 'Vollkorn', serif;
+  color: #231f20;
+  margin-bottom: 10px; /* Space between the text and social icons */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #231f20; /* Icon color */
+  font-size: 1.5em; /* Icon size */
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #0072b1; /* Change color on hover, for example LinkedIn blue */
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border: 3px solid #103900;
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the image fills the circle without distortion */
+  margin-bottom: 10px;
+  position: relative;
+  top: -80px;
+  z-index: 15;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  position: relative;
+  top: -65px;
+  z-index: 15;
+  margin-bottom: -40px;
+  font-family: 'Vollkorn', serif;
+}
+
+nav {
+  margin-top: 150px;
+  display: flex;
+  font-size: 1.2em;
+  font-family: 'Vollkorn', serif;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+nav a {
+  margin: 10px 0;
+  text-decoration: none;
+  color: #231f20;
+  font-size: 1.1em;
+  font-family: 'Vollkorn', serif;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.section-content {
+  width: 100%;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: #103900;
+}
+
+.bold-text {
+  vertical-align: auto;
+  font-weight: bold;
+  color: #DA4167;
+}
+
+.section-content h2 {
+  visibility: hidden; /* Makes the h2 invisible */
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.cv-section {
+    display: flex;
+    justify-content: space-between; /* Positions elements at the edges */
+    align-items: flex-start; /* Aligns items at the top of the container */
+    margin-top: 10px;
+}
+
+.cv-section-title {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.cv-line-bold {
+    font-weight: bold;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.cv-line-italic {
+    font-style: italic;
+    flex-direction: column;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.cv-section-date {
+    font-weight: bold;
+    font-size: 20px;
+    color: #6E8898;
+    margin-right: 30px; /* Optional: adjust margin to fine-tune alignment */
+    align-self: flex-start; /* Aligns the date to the top of the container */
+}
