@@ -209,6 +209,14 @@ p {
     text-align: center;
     justify-content: center;
     max-width: 1100px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    position: relative; /* Required for pseudo-element positioning */
+}
+
+
+.cv-entry:last-of-type {
+    border-bottom: none; /* Removes the divider for the last entry in each section */
 }
 
 .cv-date {
@@ -241,4 +249,56 @@ p {
     line-height: 1.6;
     color: #103900;
     padding-left: 20px; /* Additional indentation for clarity */
+}
+
+#projects h2 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #231f20;
+    text-decoration: underline;
+}
+
+.project-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid black;
+}
+
+.project-row {
+    display: flex;
+    align-items: stretch; /* Ensure date and description align in height */
+    border: 1px solid black;
+    padding: 0; /* Remove any extra padding */
+    background-color: #EDFFEC; /* Light green background */
+}
+
+.project-date {
+    width: 20%; /* Adjust width as needed */
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black; /* Divider line */
+}
+
+.project-description {
+    width: 80%; /* Use the remaining width for description */
+    padding: 10px;
+    font-size: 18px;
+    line-height: 2.5;
+    text-align: left;
+}
+
+.project-description a {
+    color: #0000ee; /* Link color */
+    text-decoration: underline;
+}
+
+.project-description a:hover {
+    color: #551a8b; /* Hover color for links */
 }
