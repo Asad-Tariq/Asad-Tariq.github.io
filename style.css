@@ -302,3 +302,9 @@ p {
 .project-description a:hover {
     color: #C14953; /* Hover color for links */
 }
+
+.cv-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjust if you want space between the title and button */
+}
