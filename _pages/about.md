@@ -12,4 +12,4 @@ Hello! I'm a Fulbright Alumnus with a Master's degree in **Computational Social 
 
 My interests include studying dynamically evolving human social networks using **agent-based modeling**, **game theory** and **computational simulations**.
 
-I am currently working as a **Dean's Fellow** at my alma mater, **Habib University**.
+I am currently working as a **Dean's Fellow** in the Computer Science department at my alma mater, **Habib University**.

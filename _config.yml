@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Asad Tariq"
-  pronouns         : "he/him"
+  pronouns         : # "he/him"
   bio              : "Dean's Fellow | Fulbright Alumnus | Computational Social Science"
   location         : "Karachi, Pakistan"
   employer         : "Habib University"
