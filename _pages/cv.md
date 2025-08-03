@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -13,6 +13,7 @@ Education
 ======
 * University of California San Diego
   * M.Sc. in Computational Social Science, July 2024 - June 2025
+  * Graduated with CGPA 4.00/4.00
 * Habib University, Pakistan
   * B.Sc. in Computer Science, August 2019 - May 2023
   * Graduated with CGPA 3.92/4.00
