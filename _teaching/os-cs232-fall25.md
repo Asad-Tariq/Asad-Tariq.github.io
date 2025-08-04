@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate"
 permalink: /teaching/os-cs232-fall25
 venue: "Habib University, Computer Science Department"
-date: "Fall 2025"
+date: 2025-08-18
 location: "Karachi, Pakistan"
 ---
 
