@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* University of California San Diego
+* University of California, San Diego
   * M.Sc. in Computational Social Science, July 2024 - June 2025
   * Graduated with CGPA 4.00/4.00
 * Habib University, Pakistan
