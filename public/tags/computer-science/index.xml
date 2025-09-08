@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Computer Science on Asad Tariq</title>
+    <link>http://localhost:1313/tags/computer-science/</link>
+    <description>Recent content in Computer Science on Asad Tariq</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/computer-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database Systems</title>
+      <link>http://localhost:1313/courses/database-systems/</link>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/database-systems/</guid>
+      <description>This undergraduate course explores in detail the theoretical and practical aspects of Relational Database Management Systems (RDBMS).</description>
+    </item>
+    <item>
+      <title>Object Oriented Programming and Design Methodologies</title>
+      <link>http://localhost:1313/courses/object-oriented-programming/</link>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/object-oriented-programming/</guid>
+      <description>This undergraduate course introduces the object oriented programming paradigm.</description>
+    </item>
+  </channel>
+</rss>
