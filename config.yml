@@ -52,8 +52,6 @@ params:
               url: courses/
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
         - name: Email
           url: mailto:asadtariq1999@gmail.com
         - name: Office Hours
