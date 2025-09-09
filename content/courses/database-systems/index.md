@@ -6,7 +6,6 @@ author: "Asad Tariq"
 description: "This undergraduate course explores in detail the theoretical and practical aspects of Relational Database Management Systems (RDBMS)."
 summary: "This undergraduate course explores in detail the theoretical and practical aspects of Relational Database Management Systems (RDBMS) and aims to build an understanding of database modeling, relational algebra, structured query language (SQL), transaction management, and concurrency control."
 cover:
-    image: "dbms.png"
     alt: "Database Systems"
     relative: true
 showToc: true

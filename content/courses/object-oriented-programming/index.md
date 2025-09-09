@@ -6,7 +6,6 @@ author: "Asad Tariq"
 description: "This undergraduate course introduces the object oriented programming paradigm."
 summary: "This undergraduate course introduces the object oriented programming paradigm. Object Oriented Programming (OOP) offers a new and powerful way to cope with complexity."
 cover:
-    image: "OOP.jpg"
     alt: "OOP and Design Methodologies"
     relative: true
 showToc: true
