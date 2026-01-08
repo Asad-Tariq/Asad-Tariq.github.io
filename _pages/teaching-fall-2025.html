@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Teaching — Fall 2025"
+permalink: /teaching/fall-2025/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>
+Courses taught during the Fall 2025 semester.
+</p>
+
+{% assign courses = site.teaching | where: "semester", "Fall 2025" %}
+
+{% for post in courses %}
+  {% include archive-single.html %}
+{% endfor %}

@@ -1,0 +1,22 @@
+---
+layout: archive
+title: "Teaching — Spring 2026"
+permalink: /teaching/spring-2026/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>
+Courses taught during the Spring 2026 semester.
+</p>
+
+{% assign courses = site.teaching | where: "semester", "Spring 2026" %}
+
+{% if courses.size == 0 %}
+  <p><em>No courses to display yet.</em></p>
+{% else %}
+  {% for post in courses %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}

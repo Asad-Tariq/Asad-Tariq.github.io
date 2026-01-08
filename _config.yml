@@ -6,6 +6,9 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
+# Current Semester
+current_semester: "Spring 2026"
+
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
@@ -25,7 +28,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Asad Tariq"
   pronouns         : # "he/him"
-  bio              : "Dean's Fellow | Fulbright Alumnus | Computational Social Science"
+  bio              : "Computational Social Scientist | Dean's Fellow | Fulbright Alumnus"
   location         : "Karachi, Pakistan"
   employer         : "Habib University"
   uri              : #

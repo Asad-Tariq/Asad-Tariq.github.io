@@ -7,6 +7,20 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<p>
+Select a semester to view the courses I taught during that term.
+</p>
+
+<ul class="taxonomy__index">
+  <li>
+    <a href="{{ base_path }}/teaching/fall-2025/">
+      <strong>Fall 2025</strong>
+    </a>
+  </li>
+
+  <li>
+    <a href="{{ base_path }}/teaching/spring-2026/">
+      <strong>Spring 2026</strong>
+    </a>
+  </li>
+</ul>
