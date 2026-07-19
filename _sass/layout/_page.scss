@@ -252,26 +252,15 @@
    ========================================================================== */
 
 .page__taxonomy {
-  .sep {
-    display: none;
-  }
-
   strong {
     margin-right: 10px;
   }
 }
 
 .page__taxonomy-item {
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 8px;
-  padding: 5px 10px;
-  text-decoration: none;
-  border: 1px solid var(--global-border-color);
-  border-radius: $border-radius;
+  text-decoration: underline;
 
   &:hover {
-    text-decoration: none;
     color: var(--global-link-color-hover);
   }
 }

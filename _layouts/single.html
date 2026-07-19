@@ -38,7 +38,7 @@ layout: default
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.semester }} </p>
           {% if page.subject %}
             <p class="page__taxonomy">
-              <span class="page__taxonomy-item">{% if page.icon %}<i class="fa fa-fw {{ page.icon }}" aria-hidden="true"></i> {% endif %}{{ page.subject }}</span>
+              <span>{% if page.icon %}<i class="fa fa-fw {{ page.icon }}" aria-hidden="true"></i> {% endif %}{{ page.subject }}</span>
             </p>
           {% endif %}
         {% elsif page.venue and page.date %}

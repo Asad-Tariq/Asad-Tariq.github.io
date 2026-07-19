@@ -42,7 +42,7 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.semester }} </p>
           {% if post.subject %}
             <p class="page__taxonomy">
-              <span class="page__taxonomy-item">{% if post.icon %}<i class="fa fa-fw {{ post.icon }}" aria-hidden="true"></i> {% endif %}{{ post.subject }}</span>
+              <span>{% if post.icon %}<i class="fa fa-fw {{ post.icon }}" aria-hidden="true"></i> {% endif %}{{ post.subject }}</span>
             </p>
           {% endif %}
         {% elsif post.collection == 'publications' %}
