@@ -3,10 +3,10 @@
    ========================================================================== */
 
 form {
-  margin: 0 0 5px 0;
+  margin: 0 0 $space-3xs 0;
 
   fieldset {
-    margin-bottom: 5px;
+    margin-bottom: $space-3xs;
     padding: 0;
     border-width: 0;
   }
@@ -29,7 +29,7 @@ form {
 
   ul {
     list-style-type: none;
-    margin: 0 0 5px 0;
+    margin: 0 0 $space-3xs 0;
     padding: 0;
   }
 
@@ -57,7 +57,7 @@ textarea {
 
 label {
   display: block;
-  margin-bottom: 0.25em;
+  margin-bottom: $space-3xs;
   color: var(--global-text-color);
   cursor: pointer;
 
@@ -77,8 +77,8 @@ textarea,
 select {
   display: inline-block;
   width: 100%;
-  padding: 0.25em;
-  margin-bottom: 0.5em;
+  padding: $space-3xs;
+  margin-bottom: $space-2xs;
   color: var(--global-text-color);
   background-color: #fff;
   border: 1px solid mix(#fff, #000, 80%);
@@ -102,7 +102,7 @@ input[type="radio"] {
   width: auto;
   height: auto;
   padding: 0;
-  margin: 3px 0;
+  margin: $space-3xs 0;
   *margin-top: 0;
   line-height: normal;
   cursor: pointer;
@@ -187,14 +187,14 @@ input[type="hidden"] {
 .radio.inline,
 .checkbox.inline {
   display: inline-block;
-  padding-top: 5px;
+  padding-top: $space-3xs;
   margin-bottom: 0;
   vertical-align: middle;
 }
 
 .radio.inline + .radio.inline,
 .checkbox.inline + .checkbox.inline {
-  margin-left: 10px;
+  margin-left: $space-xs;
 }
 
 
@@ -243,14 +243,14 @@ select:focus {
 
 .help-block {
   display: block;
-  margin-bottom: 1em;
+  margin-bottom: $space-sm;
   line-height: 1em;
 }
 
 .help-inline {
   display: inline-block;
   vertical-align: middle;
-  padding-left: 5px;
+  padding-left: $space-3xs;
 }
 
 
@@ -281,7 +281,7 @@ select:focus {
 .form-inline .checkbox input[type="checkbox"] {
   float: left;
   margin-left: 0;
-  margin-right: 3px; }
+  margin-right: $space-3xs; }
 
 
 /*
@@ -296,8 +296,8 @@ select:focus {
 }
 
 .form-search .search-query {
-  padding-left: 14px;
-  padding-right: 14px;
+  padding-left: $space-xs;
+  padding-right: $space-xs;
   margin-bottom: 0;
   border-radius: 14px;
 }
@@ -318,7 +318,7 @@ select:focus {
 .form-search .checkbox input[type="checkbox"] {
   float: left;
   margin-left: 0;
-  margin-right: 3px;
+  margin-right: $space-3xs;
 }
 
 
@@ -371,9 +371,9 @@ select:focus {
 
 #goog-wm-qt {
   width: auto;
-  margin-right: 10px;
-  margin-bottom: 20px;
-  padding: 8px 20px;
+  margin-right: $space-xs;
+  margin-bottom: $space-md;
+  padding: $space-2xs $space-md;
   display: inline-block;
   font-size: $type-size-6;
   background-color: #fff;

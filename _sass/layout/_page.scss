@@ -5,9 +5,9 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  margin-top: $space-lg;
+  padding-left: $space-sm;
+  padding-right: $space-sm;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
@@ -51,7 +51,7 @@
 .page__content {
 
   h2 {
-    padding-bottom: 0.5em;
+    padding-bottom: $space-2xs;
     border-bottom: 1px solid var(--global-border-color);
   }
 
@@ -85,13 +85,13 @@
   }
 
   dt {
-    margin-top: 1em;
+    margin-top: $space-sm;
     font-family: $sans-serif;
     font-weight: bold;
   }
 
   dd {
-    margin-left: 1em;
+    margin-left: $space-sm;
     font-family: $sans-serif;
     font-size: $type-size-6;
   }
@@ -103,21 +103,21 @@
   /* blockquote citations */
   blockquote + .small {
     margin-top: -1.5em;
-    padding-left: 1.25rem;
+    padding-left: $space-sm;
   }
 }
 
 .page__hero {
   position: relative;
-  margin-bottom: 2em;
+  margin-bottom: $space-lg;
   @include clearfix;
   animation: intro 0.3s both;
   animation-delay: 0.25s;
 
   &--overlay {
     position: relative;
-    margin-bottom: 2em;
-    padding: 3em 0;
+    margin-bottom: $space-lg;
+    padding: $space-xl 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -130,8 +130,8 @@
     }
 
     .wrapper {
-      padding-left: 1em;
-      padding-right: 1em;
+      padding-left: $space-sm;
+      padding-right: $space-sm;
 
       @include breakpoint($x-large) {
         max-width: $x-large;
@@ -196,8 +196,8 @@
    ========================================================================== */
 
 .page__share {
-  margin-top: 2em;
-  padding-top: 1em;
+  margin-top: $space-lg;
+  padding-top: $space-sm;
   border-top: 1px solid var(--global-border-color);
 
   @include breakpoint(max-width $small) {
@@ -215,7 +215,7 @@
 }
 
 .page__share-title {
-  margin-bottom: 10px;
+  margin-bottom: $space-xs;
   font-size: $type-size-6;
   text-transform: uppercase;
 }
@@ -226,7 +226,7 @@
    ========================================================================== */
 
 .page__meta {
-  margin-top: 2em;
+  margin-top: $space-lg;
   color: var(--global-text-color-light);
   font-family: $sans-serif;
   font-size: $type-size-6;
@@ -241,7 +241,7 @@
 }
 
 .page__meta-title {
-  margin-bottom: 10px;
+  margin-bottom: $space-xs;
   font-size: $type-size-6;
   text-transform: uppercase;
 }
@@ -253,7 +253,7 @@
 
 .page__taxonomy {
   strong {
-    margin-right: 10px;
+    margin-right: $space-xs;
   }
 }
 
@@ -275,16 +275,16 @@
 }
 
 .page__comments-title {
-  margin-top: 2rem;
-  margin-bottom: 10px;
-  padding-top: 2rem;
+  margin-top: $space-lg;
+  margin-bottom: $space-xs;
+  padding-top: $space-lg;
   font-size: $type-size-6;
   border-top: 1px solid var(--global-border-color);
   text-transform: uppercase;
 }
 
 .page__comments-form {
-  padding: 1em;
+  padding: $space-sm;
   background: var(--global-border-color);
   transition: $global-transition;
 
@@ -304,7 +304,7 @@
 
 .comment {
   @include clearfix();
-  margin: 1em 0;
+  margin: $space-sm 0;
 
   &:not(:last-child) {
     border-bottom: 1px solid var(--global-border-color);
@@ -330,7 +330,7 @@
   @include breakpoint($large) {
     width: 80px;
     height: 80px;
-    padding: 5px;
+    padding: $space-3xs;
     border: 1px solid var(--global-border-color);
   }
 }
@@ -367,8 +367,8 @@
    ========================================================================== */
 
 .page__related {
-  margin-top: 2em;
-  padding-top: 1em;
+  margin-top: $space-lg;
+  padding-top: $space-sm;
   border-top: 1px solid var(--global-border-color);
   @include clearfix();
   float: left;
@@ -384,7 +384,7 @@
 }
 
 .page__related-title {
-  margin-bottom: 10px;
+  margin-bottom: $space-xs;
   font-size: $type-size-6;
   text-transform: uppercase;
 }

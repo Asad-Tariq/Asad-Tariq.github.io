@@ -3,6 +3,18 @@
    ========================================================================== */
 
 /* ==========================================================================
+   SPACING SCALE
+   ========================================================================== */
+
+$space-3xs                  : 0.25rem; // ~4px
+$space-2xs                  : 0.5rem;  // ~8px
+$space-xs                   : 0.75rem; // ~12px
+$space-sm                   : 1rem;    // ~16px
+$space-md                   : 1.5rem;  // ~24px
+$space-lg                   : 2rem;    // ~32px
+$space-xl                   : 3rem;    // ~48px
+
+/* ==========================================================================
    TYPOGRAPHY
    ========================================================================== */
 
@@ -11,7 +23,7 @@ $doc-font-size              : 16;
 
 /* Paragraph indention */
 $paragraph-indent           : false; // true, false (default)
-$indent-var                 : 1.3em;
+$indent-var                 : $space-md;
 
 /* System typefaces */
 $serif                      : Georgia, Times, serif;

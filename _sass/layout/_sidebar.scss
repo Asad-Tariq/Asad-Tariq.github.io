@@ -11,10 +11,10 @@
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
-  margin-bottom: 1em;
+  margin-bottom: $space-sm;
 
   @media (orientation: portrait) {
-    margin-top: 1em;
+    margin-top: $space-sm;
   }
 
   @media screen and (min-width: $sidebar-screen-min-width) {
@@ -61,7 +61,7 @@
 }
 
 .sidebar__right {
-  margin-bottom: 1em;
+  margin-bottom: $space-sm;
 
   @include breakpoint($large) {
     position: relative;
@@ -101,7 +101,7 @@
     border-radius: 50%;
 
     @include breakpoint($large) {
-      padding: 5px;
+      padding: $space-3xs;
       border: 3px solid var(--global-border-color);
       border-color: var(--global-dark-border-color);
     }
@@ -111,8 +111,8 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
+  padding-left: $space-sm;
+  padding-right: $space-md;
   line-height: 1;
 
   @include breakpoint($large) {
@@ -127,8 +127,8 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: $space-xs;
+    margin-bottom: $space-xs;
   }
 }
 .sidebar .author__name {
@@ -147,8 +147,8 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: $space-xs;
+    margin-bottom: $space-xs;
   }
 }
 
@@ -156,8 +156,8 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: $space-xs;
+    margin-bottom: $space-md;
   }
 }
 
@@ -193,8 +193,8 @@
   display: none;
   position: absolute;
   right: 0;
-  margin-top: 15px;
-  padding: 10px;
+  margin-top: $space-sm;
+  padding: $space-xs;
   list-style-type: none;
   border: 1px solid var(--global-border-color);
   background: var(--global-bg-color);
@@ -216,8 +216,9 @@
 
   a {
     display: block;
-    margin-bottom: 5px;
-    padding-right: 5px;
+    margin-bottom: $space-3xs;
+    padding-right: $space-3xs;
+    /* intentionally px, not a spacing token: sub-4px baseline nudge */
     padding-top: 2px;
     padding-bottom: 2px;
     color: inherit;

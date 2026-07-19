@@ -11,8 +11,8 @@
   @include clearfix;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: $space-lg;
+  padding-right: $space-lg;
   font-family: $sans-serif;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -20,8 +20,8 @@
           animation-delay: 0.30s;
 
   @include breakpoint($large) {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: $space-sm;
+    padding-right: $space-sm;
   }
 
   @include breakpoint($x-large) {
@@ -59,8 +59,8 @@
 .pagination {
   @include full();
   @include clearfix();
-  margin-top: 1em;
-  padding-top: 1em;
+  margin-top: $space-sm;
+  padding-top: $space-sm;
 
   ul {
     margin: 0;
@@ -75,8 +75,8 @@
     margin-left: -1px;
 
     a {
-      margin-bottom: 0.25em;
-      padding: 0.5em 1em;
+      margin-bottom: $space-3xs;
+      padding: $space-2xs $space-sm;
       font-family: $sans-serif;
       font-size: 14px;
       font-weight: bold;
@@ -123,7 +123,7 @@
   /* next/previous buttons */
   &--pager {
     display: block;
-    padding: 1em 2em;
+    padding: $space-sm $space-lg;
     float: left;
     width: 50%;
     font-family: $sans-serif;
@@ -162,8 +162,8 @@
 .page__meta + .pagination,
 .page__share + .pagination,
 .page__comments + .pagination {
-  margin-top: 2em;
-  padding-top: 2em;
+  margin-top: $space-lg;
+  padding-top: $space-lg;
   border-top: 1px solid var(--global-border-color);
 }
 
@@ -179,8 +179,8 @@
 
   a {
     display: block;
-    margin: 0 1rem;
-    padding: 0.5rem 0;
+    margin: 0 $space-sm;
+    padding: $space-2xs 0;
     color: var(--global-masthead-link-color);
     text-decoration: none;
 
@@ -193,7 +193,7 @@
     position: absolute;
     height: 2.5rem;
     right: 0;
-    padding: 0 0.5rem;
+    padding: 0 $space-2xs;
     border: 0;
     outline: none;
     background-color: transparent;
@@ -264,14 +264,14 @@
     position: absolute;
     top: 100%;
     right: 0;
-    margin-top: 15px;
-    padding: 5px;
+    margin-top: $space-sm;
+    padding: $space-3xs;
     border: 1px solid var(--global-border-color);
     background: var(--global-bg-color);
 
     a {
       margin: 0;
-      padding: 10px 20px;
+      padding: $space-xs $space-md;
       font-size: $type-size-5;
 
       &:hover {
@@ -300,11 +300,12 @@
   font-size: 1.25rem;
 
   ul {
-    margin-bottom: 1em;
+    margin-bottom: $space-sm;
   }
 
   a {
     display: block;
+    /* intentionally em, not a spacing token: sub-4px baseline nudge */
     padding: 0.125em 0;
     color: inherit;
 
@@ -326,7 +327,7 @@
 
 .nav__title {
   margin: 0;
-  padding: 0.5rem 1rem;
+  padding: $space-2xs $space-sm;
   font-family: $sans-serif-narrow;
   font-size: $type-size-5;
   font-weight: bold;
@@ -334,8 +335,8 @@
 
 .nav__sub-title {
   display: block;
-  margin: 0.5rem 0;
-  padding: 0.5rem 0;
+  margin: $space-2xs 0;
+  padding: $space-2xs 0;
   font-family: $sans-serif-narrow;
   font-size: $type-size-6;
   font-weight: bold;
@@ -373,7 +374,7 @@
 
   a {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: $space-2xs $space-sm;
     color: var(--global-code-text-color);
     font-size: $type-size-7;
     font-weight: bold;
@@ -394,7 +395,7 @@
   }
 
   li ul > li a {
-    padding-left: 2rem;
+    padding-left: $space-lg;
     font-weight: normal;
   }
 

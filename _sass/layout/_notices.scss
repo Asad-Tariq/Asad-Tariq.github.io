@@ -11,8 +11,8 @@
  */
 
 @mixin notice($notice-color) {
-  margin: 2em 0 !important;  /* override*/
-  padding: 0.25em 0 0.25em 1em;
+  margin: $space-lg 0 !important;  /* override*/
+  padding: $space-3xs 0 $space-3xs $space-sm;
   font-family: $global-font-family;
   font-size: $type-size-6 !important;
   text-indent: initial; /* override*/
@@ -22,7 +22,7 @@
 
   h4 {
     margin-top: 0 !important; /* override*/
-    margin-bottom: 0.75em;
+    margin-bottom: $space-xs;
   }
 
   @at-root .page__content #{&} h4 {
