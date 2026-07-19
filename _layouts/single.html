@@ -35,7 +35,12 @@ layout: default
         {% endif %}
         
         {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.semester }} </p>
+          {% if page.subject %}
+            <p class="page__taxonomy">
+              <span class="page__taxonomy-item">{% if page.icon %}<i class="fa fa-fw {{ page.icon }}" aria-hidden="true"></i> {% endif %}{{ page.subject }}</span>
+            </p>
+          {% endif %}
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}

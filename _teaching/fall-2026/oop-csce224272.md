@@ -2,10 +2,10 @@
 title: "CS/CE 224/272 - Object Oriented Programming and Design Methodologies"
 collection: teaching
 type: "Undergraduate"
-semester: "Fall 2025"
-permalink: /teaching/oop-csce224272
+semester: "Fall 2026"
+permalink: /teaching/oop-csce224272-2026
 venue: "Habib University, Computer Science Department"
-date: 2025-08-18
+date: 2026-08-19
 location: "Karachi, Pakistan"
 subject: "Programming & Design"
 icon: "fa-code"

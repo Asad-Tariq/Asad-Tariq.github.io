@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Teaching — Fall 2026"
+permalink: /teaching/fall-2026/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>
+Courses taught during the Fall 2026 semester.
+</p>
+
+{% assign courses = site.teaching | where: "semester", "Fall 2026" %}
+
+{% for post in courses %}
+  {% include archive-single.html %}
+{% endfor %}

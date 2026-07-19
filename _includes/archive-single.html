@@ -39,7 +39,12 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.semester }} </p>
+          {% if post.subject %}
+            <p class="page__taxonomy">
+              <span class="page__taxonomy-item">{% if post.icon %}<i class="fa fa-fw {{ post.icon }}" aria-hidden="true"></i> {% endif %}{{ post.subject }}</span>
+            </p>
+          {% endif %}
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}

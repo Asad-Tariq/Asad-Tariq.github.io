@@ -8,19 +8,28 @@ author_profile: true
 {% include base_path %}
 
 <p>
-Select a semester to view the courses I taught during that term.
+As a Dean's Fellow in the Computer Science department at Habib University, I teach the following undergraduate courses. Select a semester below to view the courses taught that term.
 </p>
 
 <ul class="taxonomy__index">
   <li>
-    <a href="{{ base_path }}/teaching/fall-2025/">
-      <strong>Fall 2025</strong>
+    <a href="{{ base_path }}/teaching/fall-2026/">
+      <strong>Fall 2026</strong>
     </a>
+    {% if site.current_semester == "Fall 2026" %}<span style="color: var(--global-text-color-light); font-size: 0.85em;"> — currently teaching</span>{% endif %}
   </li>
 
   <li>
     <a href="{{ base_path }}/teaching/spring-2026/">
       <strong>Spring 2026</strong>
     </a>
+    {% if site.current_semester == "Spring 2026" %}<span style="color: var(--global-text-color-light); font-size: 0.85em;"> — currently teaching</span>{% endif %}
+  </li>
+
+  <li>
+    <a href="{{ base_path }}/teaching/fall-2025/">
+      <strong>Fall 2025</strong>
+    </a>
+    {% if site.current_semester == "Fall 2025" %}<span style="color: var(--global-text-color-light); font-size: 0.85em;"> — currently teaching</span>{% endif %}
   </li>
 </ul>
