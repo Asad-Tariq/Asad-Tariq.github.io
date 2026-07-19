@@ -8,8 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm a Fulbright Alumnus with a Master's degree in **Computational Social Science** from the **University of California, San Diego**. I have a Bachelor's degree in **Computer Science** with a minor in **Mathematics** from **Habib University, Pakistan**.
+I'm a computational social scientist. My research combines agent-based modeling, game theory, and computational simulation to study how human social networks form and evolve over time.
 
-My academic and research interests are focused on dynamically evolving human social networks, which I study using **agent-based modeling**, **game theory** and **computational simulations**.
+I'm a Fulbright Alumnus with a Master's degree in Computational Social Science from the University of California, San Diego, and a Bachelor's degree in Computer Science (minor in Mathematics) from Habib University, Pakistan. I currently work as a Dean's Fellow in the Computer Science department at Habib University, a pre-doctoral program focused on research, teaching, and mentorship.
 
-I am currently working as a **Dean's Fellow** in the Computer Science department at my alma mater, **Habib University**.
+## Research Interests
+
+My work sits at the intersection of computer science and the social sciences. I'm especially interested in:
+
+- **Dynamically evolving social networks**: how relationships and group structures shift and reorganize over time
+- **Agent-based modeling and simulation**: building bottom-up models, often in NetLogo, to study emergent social phenomena
+- **Game theory**: modeling strategic interaction and cooperation
