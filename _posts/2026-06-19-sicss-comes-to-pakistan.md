@@ -15,3 +15,10 @@ Over two weeks, participants joined us from across Pakistan, including Karachi, 
 None of this would have happened without Habib University and Tech for Open Minds, who supported the institute, or without our teaching staff and student assistants who made the two weeks run smoothly. My deepest thanks go to my co-organizer, Dr. Qasim Pasta, for building this with me from the ground up.
 
 My hope is that SICSS-Habib marks the start of a lasting computational social science community in Pakistan, and that this cohort is the first of many.
+
+### Read more:
+
+- [My reflections](https://www.linkedin.com/feed/update/urn:li:activity:7469789337552007169/)
+- [Dr. Qasim's reflections](https://www.linkedin.com/feed/update/urn:li:activity:7475929504532598784/)
+- [Habib University's announcement](https://www.linkedin.com/posts/habib-university_habibuniversity-sicss-computationalsocialscience-activity-7482400858631053312-AVCM)
+- [Habib University's recap](https://www.linkedin.com/posts/habib-university_sicsshabib2026-habibuniversity-computationalsocialscience-activity-7481373294546292736-8Rgg)
