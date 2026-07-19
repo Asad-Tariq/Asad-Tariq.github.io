@@ -71,4 +71,4 @@ Skills
 
 
 
-<br>Last Updated: 9th-Sep-2025<br>
+<br>Last Updated: 19th-July-2026<br>

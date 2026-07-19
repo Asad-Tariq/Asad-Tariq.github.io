@@ -19,3 +19,11 @@ My work sits at the intersection of computer science and the social sciences. I'
 - **Dynamically evolving social networks**: how relationships and group structures shift and reorganize over time
 - **Agent-based modeling and simulation**: building bottom-up models, often in NetLogo, to study emergent social phenomena
 - **Game theory**: modeling strategic interaction and cooperation
+
+{% if site.posts.size > 0 %}
+## Recent Engagements
+
+{% for post in site.posts limit:3 %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
+{% endif %}
