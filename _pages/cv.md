@@ -55,6 +55,14 @@ Awards
 * President's List
   * Habib University, Pakistan (2021)
 
+Service
+======
+* Co-Organizer, Summer Institute in Computational Social Science (SICSS) – Habib University
+  * Habib University, Pakistan (June 2026)
+  * Co-organized the first SICSS site hosted in Pakistan — a two-week intensive
+    program in computational social science methods (network analysis, text analysis, agent-based
+    modeling, causal inference) for participants from across Pakistan.
+
 Skills
 ======
 * Programming Languages: Python, C, C#, C++, R, SQL, Cypher.
