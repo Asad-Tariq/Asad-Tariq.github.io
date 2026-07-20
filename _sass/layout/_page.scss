@@ -241,6 +241,11 @@
   }
 }
 
+.cv-entry__date {
+  color: var(--global-text-color-light);
+  font-family: $monospace;
+}
+
 .page__meta-title {
   margin-bottom: $space-xs;
   font-size: $type-size-6;

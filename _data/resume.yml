@@ -1,0 +1,76 @@
+work_experience:
+  - title: "Dean's Fellow, Computer Science Department"
+    organization: "Habib University, Pakistan"
+    date: "July '25 - Present"
+    description: "A pre-doctoral program focusing on research, teaching, and mentorship."
+
+  - title: "Research Assistant, Computer Science Department"
+    organization: "Habib University, Pakistan"
+    date: "August '23 - June '24"
+    description: "Assisted in planning course content, grading assignments, and conducting programming labs for the following undergraduate computer science courses:"
+    items:
+      - text: "Object Oriented Programming and Design Methodologies"
+        date: "Fall '23"
+      - text: "Operating Systems"
+        date: "Fall '23"
+      - text: "Graph Data Science"
+        date: "Spring '24"
+      - text: "Data Structures II"
+        date: "Spring '24"
+      - text: "Software Security"
+        date: "Spring '24"
+
+  - title: "Research Consultant, Karachi Water Project"
+    organization: "Habib University, Pakistan"
+    date: "June '23 - August '23"
+    description: "Oversee undergraduate research interns in developing an agent-based simulation model using NetLogo for the current water supply crisis in an urban-industrial sector of Karachi."
+
+  - title: "Teaching Assistant, Computer Science"
+    organization: "Habib University, Pakistan"
+    description: "Assist the instructor in grading assignments, conducting programming labs, and holding office hours for the following courses:"
+    items:
+      - text: "CS100 - CS Freshman Seminar"
+        date: "Fall '21, Fall '22"
+      - text: "CS201 - Data Structures II"
+        date: "Spring '22"
+      - text: "CS/SDP 361/352 - Social Network Analysis"
+        date: "Fall '22"
+
+  - title: "App Developer"
+    organization: "Kashif Iqbal Thalassemia Care Center, Pakistan"
+    date: "March '22 - May '23"
+    description: "Reform an application for Thalassemia major patients by making it more user friendly and adding new features."
+
+education:
+  - title: "M.Sc. in Computational Social Science"
+    organization: "University of California, San Diego"
+    date: "July 2024 - June 2025"
+    description: "Graduated with CGPA 4.00/4.00"
+
+  - title: "B.Sc. in Computer Science"
+    organization: "Habib University, Pakistan"
+    date: "August 2019 - May 2023"
+    description: "Graduated with CGPA 3.92/4.00"
+
+awards:
+  - title: "Fulbright Scholarship"
+    organization: "USEFP & IIE"
+    date: "2024 Cohort"
+
+  - title: "Dean's List"
+    organization: "Habib University, Pakistan"
+    date: "Spring '23, '22, '21 & Fall '21"
+
+  - title: "High Academic Achievement Scholarship"
+    organization: "Habib University, Pakistan"
+    date: "Fall '22"
+
+  - title: "President's List"
+    organization: "Habib University, Pakistan"
+    date: "2021"
+
+service:
+  - title: "Co-Organizer, Summer Institute in Computational Social Science (SICSS) – Habib University"
+    organization: "Habib University, Pakistan"
+    date: "June 2026"
+    description: "Co-organized the first SICSS site hosted in Pakistan — a two-week intensive program in computational social science methods (network analysis, text analysis, agent-based modeling, causal inference) for participants from across Pakistan."

@@ -1,0 +1,20 @@
+<ul>
+{% for entry in include.entries %}
+  <li>{{ entry.title }}
+    <ul>
+      <li>{{ entry.organization }}{% if entry.date %} <span class="cv-entry__date">({{ entry.date }})</span>{% endif %}</li>
+      {% if entry.description %}
+      <li>{{ entry.description }}
+        {% if entry.items %}
+        <ul>
+          {% for item in entry.items %}
+          <li>{{ item.text }}{% if item.date %} <span class="cv-entry__date">({{ item.date }})</span>{% endif %}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+      {% endif %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>
