@@ -49,6 +49,7 @@
 }
 
 .page__content {
+  max-width: 70ch;
 
   h2 {
     padding-bottom: $space-2xs;
@@ -228,7 +229,7 @@
 .page__meta {
   margin-top: $space-lg;
   color: var(--global-text-color-light);
-  font-family: $sans-serif;
+  font-family: $monospace;
   font-size: $type-size-6;
 
   p {
